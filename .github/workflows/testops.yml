@@ -9,11 +9,11 @@ on:
       ENDPOINT:
         description: Endpoint
         required: false
-        default: https://demo.testops.cloud
+        default: Endpoint
       BROWSER:
         description: Browser
         required: false
-        default: Opera
+        default: Chrome
       OS:
         description: OS
         required: false
