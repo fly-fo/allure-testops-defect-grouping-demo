@@ -58,6 +58,6 @@ jobs:
         run: |
           allurectl watch -- pytest --alluredir="${ALLURE_RESULTS}"
         env:
-          ENDPOINT: ${{ github.event.inputs.ENDPOINT }}
+          RELEASE: ${{ github.event.inputs.RELEASE }}
           BROWSER: ${{ github.event.inputs.BROWSER }}
           OS: ${{ github.event.inputs.OS }}
