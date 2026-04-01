@@ -17,7 +17,7 @@ for i in range(1, 351):
             "severity": Severity.NORMAL,
             "layer": "api",
             "tags": ["demo", "synthetic", "api", "smoke", "auth"],
-            "step_1": "Prepare valid authentication payload",
+            "step_1": "Prepare valid authentication payloads",
             "step_2": "Validate successful sign-in response",
         })
     elif i <= 240:

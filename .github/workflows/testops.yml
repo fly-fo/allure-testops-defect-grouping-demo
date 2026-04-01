@@ -9,7 +9,7 @@ on:
       RELEASE:
         description: Release
         required: false
-        default: 1.2.3.4
+        default: 1.2.3
       BROWSER:
         description: Browser
         required: false
