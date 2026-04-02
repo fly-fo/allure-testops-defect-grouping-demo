@@ -17,7 +17,7 @@ def execute_broken_flow(case_number: int):
         with allure.step("Poll synchronization status"):
             pass
         with allure.step("Check timeout threshold and final sync state"):
-            break_with_message("PROFILE_SYNC_TIMEOUT: synchronization exceeded timeout", case_number)
+            break_with_message("Error: Failed to launch chromium because executable doesn’t exist", case_number)
 
 
 @allure.title("BG1 - Profile sync timeout - case 01")
